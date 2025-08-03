@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remove Extra Spaces Example</title>
+</head>
+<body>
+    <h1>Remove Extra Spaces Filter Example</h1>
+        <pre>Original: "{{text | upper}}"</pre>
+        {% load filters %}
+        <pre>Filtered: "{{text | removeExtraSpacesFilter}}"</pre>
+        <pre>Filtered: "{{8 | evenOrOdd}}"</pre>
+        <div>json object</div>
+        {{json | renderJson}}
+
+</html>
